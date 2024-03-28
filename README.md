@@ -2,7 +2,8 @@
 
 ## Notice
 
-Running the code requires SDP solver MOSEK in MATLAB (<a href="https://www.mosek.com/downloads/" title="超链接title">download link</a>).
+Running the code requires SDP solver MOSEK in MATLAB (<a href="https://www.mosek.com/downloads/" title="超链接title">download link</a>),\
+and adding the corresponding path "Mosek/Mosek version/toolbox/MATLAB version"(avoid warning: solver not found).
 
 ## comparison between ProjBWGD and Riemannan Frank-wolfe [1, 2]
 Consider problem 
