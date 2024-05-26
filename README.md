@@ -1,5 +1,7 @@
 # ProjBWGD
 
+Code of paper "On the Convergence of Projected Bures-Wasserstein Gradient Descent under Euclidean Strong Convexity" ICML 2024
+
 ## Notice
 
 Running the code requires SDP solver MOSEK in MATLAB (<a href="https://www.mosek.com/downloads/" title="超链接title">download link</a>),\
