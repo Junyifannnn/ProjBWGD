@@ -26,13 +26,13 @@ run constrained_BWM_2.m to recover case 2 result
 
 run constraned_barycenter.m to recover result
 
-<img src="constrained_barycenter_updated.jpg" title="constrained_barycenter" width=50%>
+<img src="constrained_barycenter.jpg" title="constrained_barycenter" width=50%>
 
 ## WDRO-MMSE problem:
 
 run WDRO_MMSE.m to recover result 
 
-<img src="MMSE_convergence_updated.jpg" title="WDRO_MMSE" width=50%>
+<img src="MMSE_convergence.jpg" title="WDRO_MMSE" width=50%>
 
 
 
