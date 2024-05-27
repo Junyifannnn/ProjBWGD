@@ -5,6 +5,7 @@ clc
 clear 
 rng(100);
 addpath(genpath('utilities'));
+addpath(genpath('RFW'));
 
 %% Parameter
 n = 60; % dim
