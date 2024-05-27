@@ -10,13 +10,13 @@ and adding the corresponding path "Mosek/Mosek version/toolbox/MATLAB version"(a
 ## Barycenter problem with matrix interval constraint
 RFW represents Riemannan Frank-wolfe method [1, 2]
 
-run constrained_BWM.m to recover case 1 result 
+run constrained_BWM_case1.m to recover case 1 result 
 
 <img src="comparison_BWM.jpg" title="Case 1" width=50%>
 
 run constrained_BWM_2.m to recover case 2 result
 
-<img src="comparison_BWM_2.jpg" title="Case 2" width=50%>
+<img src="comparison_BWM_case2.jpg" title="Case 2" width=50%>
 
 * **Case 1:** the unconstrained minimum lies within the interior of the interval (i.e., the constrained optimum also lies in the interior of the interval)
 
