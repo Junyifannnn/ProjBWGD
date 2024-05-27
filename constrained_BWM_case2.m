@@ -81,7 +81,7 @@ p2 = plot_with_shade(1:iter_max, obj_BWGD, prc, alphaa, colors(2,:));
 set(gca, 'XScale', 'linear', 'YScale', 'linear');
 set(gca, 'FontSize', font_size - 2);
 xlabel('iterations', 'FontSize', font_size);
-ylabel('log of objective function','FontSize', font_size)
+ylabel('objective function','FontSize', font_size)
 grid on
 lgd = legend([p1, p2], 'RFW','BWGD', 'Location', 'northeast');
 lgd.FontSize = font_size;
