@@ -12,9 +12,9 @@ RFW represents Riemannan Frank-wolfe method [1, 2]
 
 run constrained_BWM_case1.m to recover case 1 result 
 
-<img src="comparison_BWM.jpg" title="Case 1" width=50%>
+<img src="comparison_BWM_case1.jpg" title="Case 1" width=50%>
 
-run constrained_BWM_2.m to recover case 2 result
+run constrained_BWM_case2.m to recover case 2 result
 
 <img src="comparison_BWM_case2.jpg" title="Case 2" width=50%>
 
