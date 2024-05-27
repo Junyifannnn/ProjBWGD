@@ -175,7 +175,7 @@ for r = 1 : run_count
                 obj_tmp = obj_tmp + beta(num) * trace(Sigma_tmp_APGD + Sigma_i(:, :, num) - 2 * grad_tmp2_APGD(:, :, num));
             end
             tmp_val = trace(inv(cur_half)*grad_BW*cur_half*sqrtm(cur_half * Sigma_APGD * cur_half))-trace(grad_BW*Sigma_APGD);
-            if obj_tmp <= obj_APGD(i, r) - 0.5 * tmp_val
+            if obj_tmp <= obj_APGD(i, r) + 0.5 * tmp_val
                 break
             end
             beta_k = beta_k / tau;
